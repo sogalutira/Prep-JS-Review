@@ -199,6 +199,11 @@ console.log(watMyName("Slim", "Shady"));
 
 i.e. "The locaton at 0 is Tokyo."*/
 
+var japanPrefectures = ['Aichi', 'Akita', 'Aomori', 'Chiba', 'Ehime'];
+for (i = 0; i < japanPrefectures.length; i++){
+  console.log("The location at " + i + " is " + japanPrefectures[i]);
+}
+
 /*19. Declare a variable named "oddNumbers".
 Use a for loop to add only odd numbers to an Array.  Add 30 odd numbers to the oddNumbers variable starting with the value of 1.*/
 
