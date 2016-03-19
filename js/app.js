@@ -148,10 +148,14 @@ function add(dog, cat){
 console.log(add(dog,cat));
   
 
-
 /*13.  Declare a function named subtract. 
 This function will take two parameters and returns the result of subtracting two numbers together. 
 Store this value in a variable named difference and console log this variable.*/
+function subtract(cat, dog){
+  difference = cat - dog;
+  return "Cat minus dog equals " + difference;
+}
+console.log(subtract(cat,dog));
 
 /*14. Declare a function named multiply.
 This function will take two parameter and return the result of multipling two numbers together.
