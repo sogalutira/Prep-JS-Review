@@ -29,6 +29,9 @@ console.log(lovesPrepClass, eatsDonuts, drinksGin);
 
 /*4. Variable with Null values
 Declare variables named completedCodingChallenge, traveledToSpace.  Console log each variable*/
+var completedCodingChallenge = null;
+var traveledToSpace = null;
+console.log('Completed coding challenge and went to space? ' + completedCodingChallenge, traveledToSpace);
 
 /*5.  Variables with Array for its value.
 Declare a variable named japanPrefectures and assign the value of the names of 5 prefectures in Japan.
