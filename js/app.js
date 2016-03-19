@@ -41,6 +41,8 @@ Console log the value at index 3.*/
 
 var japanPrefectures = ['Aichi', 'Akita', 'Aomori', 'Chiba', 'Ehime'];
 console.log(japanPrefectures);
+console.log(japanPrefectures[1]);
+console.log(japanPrefectures[3]);
 
 
 /*6.  Variable with Array for its value.
@@ -50,6 +52,8 @@ Console log "Earth" using the index position
 Console log "Uranus" using the index position*/
 var planets = ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune'];
 console.log(planets);
+console.log(planets[2]);
+console.log(planets[6]);
 
 
 /*7. Variables with Array for its value.
@@ -168,6 +172,10 @@ console.log(multiply(dog,cat));
 
 /*15.  Declare a function named dunkinDonuts.
 This function will access the value stored in the sum variable and uses this number to return the string "I eats X old fashioned donuts every morning to stay classy." X is the value stored in the sum variable.  Console log the result.  */ 
+function dunkinDonuts(sum){
+  return "I eat " + sum + " old fashioned donuts every morning to stay class.";
+}
+console.log(dunkinDonuts(sum));
 
 /*16.  Declare a function named stayinClassy.
 This function will access the values store in the difference and product variables and uses these numbers to return the string "Yea, I drank X gallons of box wine and ate Y bags of Cheetos and still feel vibrant yo!"  X is the value stored at difference variable and Y is the value stored at product variable. Console.log the result.*/
