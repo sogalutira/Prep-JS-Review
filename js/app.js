@@ -7,6 +7,10 @@ Go get em!*/
 
 /*1.  Variables with a String as their value.
 Declare variables named yourName, neighborName, teacherName.  Console log each variable.*/
+var yourName = 'Sheena';
+var neighborName = 'neighbor';
+var teacherName = 'Vic';
+console.log(yourName, neighborName, teacherName);
 
 
 /*2. Variable with a Number as their value.
