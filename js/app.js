@@ -253,10 +253,22 @@ function fightDaPower(){
     return "I'm jumping on the next flight to Antigua.";}
     else { return "I can't wait to be in the 12th grade!";}
 }
-
 console.log(fightDaPower());
 
 /*22. Declare a function named contentFiller which takes in a single parameter which will be an object.  Write a for loop that will put 5 random numbers between the values of 0 to 20 in the contents array in the bigBox object you created in exercise 10.  Console log the result.*/
+
+
+function contentFiller(obj){
+ for (var i = 0; i < 5; i++) {
+   var randomNum = Math.floor(Math.random()*20 +1);
+   bigBox.contents.push(randomNum);
+ }
+ return  obj;
+  }
+  console.log(contentFiller(bigBox));
+
+  
+
 
 /*23.  Declare a function named firstReverse which takes a single parameter str.  This function will take a string parameter being passed in and return the string in reverse order.*/
 
