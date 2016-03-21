@@ -268,10 +268,19 @@ function contentFiller(obj){
   console.log(contentFiller(bigBox));
 
   
-
-
 /*23.  Declare a function named firstReverse which takes a single parameter str.  This function will take a string parameter being passed in and return the string in reverse order.*/
+var randomStr = ['Tank', 'Heals', 'DPS', 'Support', 'Crowd Control'];
+var newStr = [];
 
+function firstReverse(str){
+  for (var i = randomStr.length-1; i>=0; i--){
+    newStr.push(randomStr[i]);    
+  }
+  return newStr;
+ 
+  }
+  console.log(firstReverse(newStr));
+ 
 /*24.  Using DOM, create the follow HTML layout:
 
 <div id="dessert">
