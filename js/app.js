@@ -294,3 +294,30 @@ function firstReverse(str){
   </span>
 </div>    
 */
+window.onload = function(){
+var firstDiv = document.createElement('div');
+  firstDiv.id = "dessert";
+var firstSpan = document.createElement('span');
+  firstSpan.id = "cakes";
+var firstP = document.createElement('p');
+var chocText = document.createTextNode("chocolate");
+
+var secondDiv = document.createElement('div');
+  secondDiv.id = "drinks";
+var secondSpan = document.createElement('span');
+  secondSpan.id = "juice";
+var secondP = document.createElement('p');
+var koolText = document.createTextNode("kool-aid");
+
+firstDiv.appendChild(firstSpan);
+firstSpan.appendChild(firstP);
+firstP.appendChild(chocText);
+
+secondDiv.appendChild(secondSpan);
+secondSpan.appendChild(secondP);
+secondP.appendChild(koolText);
+
+
+document.body.appendChild(firstDiv);
+document.body.appendChild(secondDiv);
+};
